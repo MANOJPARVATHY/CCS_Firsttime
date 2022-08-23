@@ -77,7 +77,7 @@ void main()
 	    ADC_Processing();							// Internal ADC Read
 		Interface();							// Drive Start/Stop Interface
 		System_Faults();						// Various System Protection Functions
-		  // offest 1.65V Reading
+		asm("NOP");// offest 1.65V Reading
 		//-------------------------------------------------------------------------------------------------------------------
     // MODBUS Handling
     //-------------------------------------------------------------------------------------------------------------------
