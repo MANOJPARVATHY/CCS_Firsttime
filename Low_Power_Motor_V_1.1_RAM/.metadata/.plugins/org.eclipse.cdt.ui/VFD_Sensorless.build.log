@@ -1,0 +1,98 @@
+
+**** Build of configuration Debug for project VFD_Sensorless ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../DSP28234_CodeStartBranch.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --include_path="C:/ti/controlSUITE/libs/math/IQmath/v160/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP28234_CodeStartBranch.d_raw"  "../DSP28234_CodeStartBranch.asm"
+'Finished building: "../DSP28234_CodeStartBranch.asm"'
+ 
+'Building file: "../DLOG_4CH_IQ.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --include_path="C:/ti/controlSUITE/libs/math/IQmath/v160/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DLOG_4CH_IQ.d_raw"  "../DLOG_4CH_IQ.c"
+'Finished building: "../DLOG_4CH_IQ.c"'
+ 
+'Building file: "../DSP28234_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --include_path="C:/ti/controlSUITE/libs/math/IQmath/v160/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP28234_GlobalVariableDefs.d_raw"  "../DSP28234_GlobalVariableDefs.c"
+'Finished building: "../DSP28234_GlobalVariableDefs.c"'
+ 
+'Building file: "../Funcs_0_Main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --include_path="C:/ti/controlSUITE/libs/math/IQmath/v160/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Funcs_0_Main.d_raw"  "../Funcs_0_Main.c"
+'Finished building: "../Funcs_0_Main.c"'
+ 
+'Building file: "../Funcs_0_Interlocks.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --include_path="C:/ti/controlSUITE/libs/math/IQmath/v160/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Funcs_0_Interlocks.d_raw"  "../Funcs_0_Interlocks.c"
+'Finished building: "../Funcs_0_Interlocks.c"'
+ 
+'Building file: "../Funcs_1_Periph.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --include_path="C:/ti/controlSUITE/libs/math/IQmath/v160/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Funcs_1_Periph.d_raw"  "../Funcs_1_Periph.c"
+'Finished building: "../Funcs_1_Periph.c"'
+ 
+'Building file: "../Funcs_3_MotorControl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --include_path="C:/ti/controlSUITE/libs/math/IQmath/v160/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Funcs_3_MotorControl.d_raw"  "../Funcs_3_MotorControl.c"
+'Finished building: "../Funcs_3_MotorControl.c"'
+ 
+'Building file: "../Funcs_2_Modbus.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --include_path="C:/ti/controlSUITE/libs/math/IQmath/v160/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Funcs_2_Modbus.d_raw"  "../Funcs_2_Modbus.c"
+"../Funcs_2_Modbus.c", line 454: warning #994-D: missing return statement at end of non-void function "Modbus_WriteMode_Resp"
+"../Funcs_2_Modbus.c", line 924: warning #994-D: missing return statement at end of non-void function "Modbus_ReadMode_Resp"
+'Finished building: "../Funcs_2_Modbus.c"'
+ 
+'Building file: "../Funcs_4_MotorFunctions.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --include_path="C:/ti/controlSUITE/libs/math/IQmath/v160/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Funcs_4_MotorFunctions.d_raw"  "../Funcs_4_MotorFunctions.c"
+'Finished building: "../Funcs_4_MotorFunctions.c"'
+ 
+'Building file: "../Funcs_5_Faults&Warnings.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --include_path="C:/ti/controlSUITE/libs/math/IQmath/v160/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Funcs_5_Faults&Warnings.d_raw"  "../Funcs_5_Faults&Warnings.c"
+"../Funcs_5_Faults&Warnings.c", line 173: warning #9-D: nested comment is not allowed
+'Finished building: "../Funcs_5_Faults&Warnings.c"'
+ 
+'Building file: "../I2C.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --include_path="C:/ti/controlSUITE/libs/math/IQmath/v160/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="I2C.d_raw"  "../I2C.c"
+'Finished building: "../I2C.c"'
+ 
+'Building file: "../variable.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --include_path="C:/ti/controlSUITE/libs/math/IQmath/v160/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="variable.d_raw"  "../variable.c"
+'Finished building: "../variable.c"'
+ 
+'Building file: "../Funcs_0_Init.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --include_path="C:/ti/controlSUITE/libs/math/IQmath/v160/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Funcs_0_Init.d_raw"  "../Funcs_0_Init.c"
+"../Funcs_0_Init.c", line 3251: warning #515-D: a value of type "float32 *" cannot be assigned to an entity of type "int32 *"
+"../Funcs_0_Init.c", line 3252: warning #515-D: a value of type "float32 *" cannot be assigned to an entity of type "long *"
+"../Funcs_0_Init.c", line 3256: warning #515-D: a value of type "union SystemFlags *" cannot be assigned to an entity of type "int32 *"
+"../Funcs_0_Init.c", line 3265: warning #515-D: a value of type "int16 *" cannot be assigned to an entity of type "int32 *"
+"../Funcs_0_Init.c", line 3266: warning #515-D: a value of type "int16 *" cannot be assigned to an entity of type "int32 *"
+"../Funcs_0_Init.c", line 3267: warning #515-D: a value of type "int16 *" cannot be assigned to an entity of type "int32 *"
+"../Funcs_0_Init.c", line 3269: warning #515-D: a value of type "Uint32 *" cannot be assigned to an entity of type "int32 *"
+'Finished building: "../Funcs_0_Init.c"'
+ 
+'Building target: "VFD_Sensorless.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"VFD_Sensorless.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" -i"C:/ti/controlSUITE/libs/math/IQmath/v160/lib" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="VFD_Sensorless_linkInfo.xml" --rom_model -o "VFD_Sensorless.out" "./DLOG_4CH_IQ.obj" "./DSP28234_CodeStartBranch.obj" "./DSP28234_GlobalVariableDefs.obj" "./Funcs_0_Init.obj" "./Funcs_0_Interlocks.obj" "./Funcs_0_Main.obj" "./Funcs_1_Periph.obj" "./Funcs_2_Modbus.obj" "./Funcs_3_MotorControl.obj" "./Funcs_4_MotorFunctions.obj" "./Funcs_5_Faults&Warnings.obj" "./I2C.obj" "./variable.obj" "../28334_RAM_lnk.cmd" "../IQmath.lib"  -llibc.a 
+<Linking>
+warning #16002-D: build attribute vendor section TI missing in "../IQmath.lib<IQ15div.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "../IQmath.lib<IQ15log.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "../IQmath.lib<IQ20toF.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "../IQmath.lib<IQ24atan2PU.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "../IQmath.lib<IQ24cosPU.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "../IQmath.lib<IQ24div.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "../IQmath.lib<IQ24sinPU.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "../IQmath.lib<IQ24toF.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "../IQmath.lib<IQmathTables.obj>": compatibility cannot be determined
+warning #10247-D: creating output section ".econst" without a SECTIONS specification
+'Finished building target: "VFD_Sensorless.out"'
+ 
+
+**** Build Finished ****
