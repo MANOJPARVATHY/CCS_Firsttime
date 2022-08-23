@@ -62,7 +62,7 @@ void main()
 
 	Init_SDRAMLogger();                         // Initialise SDRAM module
 
-	Initialise_Variables();                     // Initialize VFD Parameters
+	//Initialise_Variables();                     // Initialize VFD Parameters
 
 
 	 GpioDataRegs.GPADAT.bit.GPIO26 =  GPIO_SET;
